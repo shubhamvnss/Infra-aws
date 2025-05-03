@@ -1,0 +1,38 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+crash.log
+*.zip
+
+# Local override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Sensitive files (to avoid pushing secrets or passwords)
+*.pem
+*.key
+*.crt
+
+# IDE/editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# Terraform plan files
+*.plan
+
+# AWS CLI specific
+.aws/
+
+bootstrap/
