@@ -1,0 +1,5 @@
+aws_region        = "us-east-1"
+key_pair_name     = "jenkins-key"
+public_key_path   = "~/.ssh/id_rsa.pub"
+ami_id            = "ami-0fc5d935ebf8bc3bc"
+instance_type     = "t2.micro"
